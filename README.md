@@ -153,6 +153,7 @@ output:
 - greet.obj
 - simpleC.exe
 <br>  
+
 ***
 
 ### <3.2.2> use "include"
@@ -181,7 +182,9 @@ output:
 - simpleC.obj
 - simpleC.exe
 <br>
+
 ***
+
 <br>
 
 ### Summary:
@@ -189,7 +192,7 @@ output:
 |--------------|-------------------|---------------|
 | cl both `.c` |**Success**<br>-simpleC.obj<br>-greet.obj<br>-simpleC.exe|**ERROR:** multiply defined<br><img src='fig/ch3_err_2.png'>|
 | cl only `main.c` |**ERROR:** unresolvable<br><img src='fig/ch3_err_1.png'>|**Success**<br>-simpleC.obj<br>-simpleC.exe|
-| | | |
+
 
 ## 3.3 Try C++ compiler
 C++ compiler is not so "flexible"...
